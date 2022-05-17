@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Zodiac_Detail.Zodiac_FlyDetail"
+             Title="Detail"
+             xmlns:local="clr-namespace:Zodiac_Detail">
+    <ScrollView>
+        <StackLayout Padding="15" VerticalOptions="Fill" x:DataType="local:Zodiac_FlyFlyoutMenuItem" x:Name="stack">
+            <Label Text="{Binding Title}" FontSize="Large" HorizontalOptions="Center"></Label>
+            <Image Source="{Binding Pic}"></Image>
+            <Label Text="{Binding Description}" FontSize="Body" VerticalOptions="Fill"/>
+      </StackLayout>
+    </ScrollView>
+</ContentPage>
