@@ -16,6 +16,11 @@ namespace Zodiac_Detail
         public string Title { get; set; }
         public string Description { get; set; }
         public string Pic { get; set; }
+        public char Read { get; set; }
+        public string TitleRead {
+            get { return Title + " " + Read; }
+            set { }
+        }
         public Type TargetType { get; set; }
     }
 }

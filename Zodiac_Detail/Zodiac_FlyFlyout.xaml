@@ -9,15 +9,15 @@
               HasUnevenRows="true"
               ItemsSource="{Binding MenuItems}">
       <ListView.Header>
-        <Grid BackgroundColor="#03A9F4">
+        <Grid BackgroundColor="GhostWhite">
           <Grid.ColumnDefinitions>
             <ColumnDefinition Width="10"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="10"/>
           </Grid.ColumnDefinitions>
           <Grid.RowDefinitions>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="80"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="40"/> 
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="10"/>
           </Grid.RowDefinitions>
@@ -25,17 +25,18 @@
               Grid.Column="1"
               Grid.Row="2"
               Text="Zodiac Book"
+              TextColor="DarkSlateBlue"
               Style="{DynamicResource SubtitleStyle}"/>
         </Grid>
       </ListView.Header>
       <ListView.ItemTemplate>
         <DataTemplate>
           <ViewCell>
-            <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand">
+            <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand" BackgroundColor="DarkSlateBlue">
               <Label VerticalOptions="FillAndExpand" 
                     VerticalTextAlignment="Center" 
-                    Text="{Binding Title}" 
-                    FontSize="20"/>
+                    Text="{Binding TitleRead}" 
+                    FontSize="20" TextColor="GhostWhite"/>
             </StackLayout>
           </ViewCell>
         </DataTemplate>

@@ -33,18 +33,18 @@ namespace Zodiac_Detail
             {
                 MenuItems = new ObservableCollection<Zodiac_FlyFlyoutMenuItem>(new[]
                 {
-                    new Zodiac_FlyFlyoutMenuItem { Id = 0, Title = "Aries",Pic = "_0.jpg", Description = Properties.Resources.Aries },
-                    new Zodiac_FlyFlyoutMenuItem { Id = 1, Title = "Leo" ,Pic = "_1.jpg", Description = Properties.Resources.Leo},
-                    new Zodiac_FlyFlyoutMenuItem { Id = 4, Title = "Sagittarius",Pic = "_2.jpg", Description = Properties.Resources.Sagittarius },
-                    new Zodiac_FlyFlyoutMenuItem { Id = 5, Title = "Taurus",Pic = "_3.jpg", Description = Properties.Resources.Tauros },
-                    new Zodiac_FlyFlyoutMenuItem { Id = 6, Title = "Virgo" ,Pic = "_4.jpg", Description = Properties.Resources.Virgo},
-                    new Zodiac_FlyFlyoutMenuItem { Id = 7, Title = "Capricorn" ,Pic = "_5.jpg", Description = Properties.Resources.Capricorn},
-                    new Zodiac_FlyFlyoutMenuItem { Id = 8, Title = "Gemini" ,Pic = "_6.jpg", Description = Properties.Resources.Gemini},
-                    new Zodiac_FlyFlyoutMenuItem { Id = 9, Title = "Libra" ,Pic = "_7.jpg", Description = Properties.Resources.Libra},
-                    new Zodiac_FlyFlyoutMenuItem { Id = 10, Title = "Aquarius" ,Pic = "_8.jpg", Description = Properties.Resources.Aquarius},
-                    new Zodiac_FlyFlyoutMenuItem { Id = 11, Title = "Cancer" ,Pic = "_9.jpg", Description = Properties.Resources.Cancer},
-                    new Zodiac_FlyFlyoutMenuItem { Id = 2, Title = "Scorpio",Pic = "_10.jpg" , Description = Properties.Resources.Scorpio},
-                    new Zodiac_FlyFlyoutMenuItem { Id = 3, Title = "Pisces" ,Pic = "_11.jpg", Description = Properties.Resources.Pisces},
+                    new Zodiac_FlyFlyoutMenuItem { Id = 0, Title = "Aries",Pic = "_0.jpg", Description = Properties.Resources.Aries, Read = ' ' },
+                    new Zodiac_FlyFlyoutMenuItem { Id = 1, Title = "Leo" ,Pic = "_1.jpg", Description = Properties.Resources.Leo, Read = ' '},
+                    new Zodiac_FlyFlyoutMenuItem { Id = 4, Title = "Sagittarius",Pic = "_2.jpg", Description = Properties.Resources.Sagittarius, Read = ' ' },
+                    new Zodiac_FlyFlyoutMenuItem { Id = 5, Title = "Taurus",Pic = "_3.jpg", Description = Properties.Resources.Tauros, Read = ' ' },
+                    new Zodiac_FlyFlyoutMenuItem { Id = 6, Title = "Virgo" ,Pic = "_4.jpg", Description = Properties.Resources.Virgo, Read = ' '},
+                    new Zodiac_FlyFlyoutMenuItem { Id = 7, Title = "Capricorn" ,Pic = "_5.jpg", Description = Properties.Resources.Capricorn, Read = ' '},
+                    new Zodiac_FlyFlyoutMenuItem { Id = 8, Title = "Gemini" ,Pic = "_6.jpg", Description = Properties.Resources.Gemini, Read = ' '},
+                    new Zodiac_FlyFlyoutMenuItem { Id = 9, Title = "Libra" ,Pic = "_7.jpg", Description = Properties.Resources.Libra, Read = ' '},
+                    new Zodiac_FlyFlyoutMenuItem { Id = 10, Title = "Aquarius" ,Pic = "_8.jpg", Description = Properties.Resources.Aquarius, Read = ' '},
+                    new Zodiac_FlyFlyoutMenuItem { Id = 11, Title = "Cancer" ,Pic = "_9.jpg", Description = Properties.Resources.Cancer, Read = ' '},
+                    new Zodiac_FlyFlyoutMenuItem { Id = 2, Title = "Scorpio",Pic = "_10.jpg" , Description = Properties.Resources.Scorpio, Read = ' '},
+                    new Zodiac_FlyFlyoutMenuItem { Id = 3, Title = "Pisces" ,Pic = "_11.jpg", Description = Properties.Resources.Pisces, Read = ' '},
                 });
             }
 
@@ -58,6 +58,10 @@ namespace Zodiac_Detail
                 PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
             }
             #endregion
+        }
+        public static void UpdateList()
+        {
+
         }
     }
 }

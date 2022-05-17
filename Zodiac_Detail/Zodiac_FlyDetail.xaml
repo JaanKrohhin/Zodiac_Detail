@@ -5,10 +5,10 @@
              Title="Detail"
              xmlns:local="clr-namespace:Zodiac_Detail">
     <ScrollView>
-        <StackLayout Padding="15" VerticalOptions="Fill" x:DataType="local:Zodiac_FlyFlyoutMenuItem" x:Name="stack">
-            <Label Text="{Binding Title}" FontSize="Large" HorizontalOptions="Center"></Label>
+        <StackLayout Padding="15" VerticalOptions="Fill" x:DataType="local:Zodiac_FlyFlyoutMenuItem" x:Name="stack" BackgroundColor="DarkSlateBlue">
+            <Label Text="{Binding Title}" FontSize="Large" HorizontalOptions="Center" TextColor="GhostWhite"></Label>
             <Image Source="{Binding Pic}"></Image>
-            <Label Text="{Binding Description}" FontSize="Body" VerticalOptions="Fill"/>
+            <Label Text="{Binding Description}" FontSize="Body" VerticalOptions="Fill" TextColor="GhostWhite"/>
       </StackLayout>
     </ScrollView>
 </ContentPage>

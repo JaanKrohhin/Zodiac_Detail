@@ -20,6 +20,7 @@ namespace Zodiac_Detail
                 BindingContext = new Zodiac_FlyFlyoutMenuItem { Title = "THE BOOK OF ZODIACS", Description = Properties.Resources.Start, Pic = "mainZodiacimg.jpg"};
             else
                 BindingContext = item;
+            
         }
     }
 }

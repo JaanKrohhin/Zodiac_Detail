@@ -19,7 +19,7 @@ namespace Zodiac_Detail.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -83,7 +83,9 @@ namespace Zodiac_Detail.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Emotional, intuitive, and practically psychic; ruled by the moon and characterized by the crab, Cancer has so much going on in its watery depths. Cancer signs may seem prickly and standoffish at first meeting, once they make the decision to become friends with someone, that person has a friend for life..
+        ///   Looks up a localized string similar to Emotional, intuitive, and practically psychic; ruled by the moon and characterized by the crab, Cancer has so much going on in its watery depths. 
+        ///
+        ///Cancer signs may seem prickly and standoffish at first meeting, once they make the decision to become friends with someone, that person has a friend for life..
         /// </summary>
         internal static string Cancer {
             get {
@@ -92,7 +94,9 @@ namespace Zodiac_Detail.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Smart, hardworking, and fully in control of their destiny, Capricorn signs will always get what they set their mind to, in both personal and professional life—no excuses. Capricorns may get a reputation as stubborn, but they simply know what they want, and also know how they wish other people would behave..
+        ///   Looks up a localized string similar to Smart, hardworking, and fully in control of their destiny, Capricorn signs will always get what they set their mind to, in both personal and professional life—no excuses. 
+        ///
+        ///Capricorns may get a reputation as stubborn, but they simply know what they want, and also know how they wish other people would behave..
         /// </summary>
         internal static string Capricorn {
             get {
@@ -101,7 +105,9 @@ namespace Zodiac_Detail.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Smart, passionate, and dynamic, Gemini is characterized by the Twins, Castor and Pollux, and is known for having two different sides they can display to the world. Expert communicators, Gemini is the chameleon of the Zodiac, adept at blending into different groups based on the vibe and energy they perceive. While they&apos;re also amazing at showcasing surface traits, the Gemini well runs deep, which is why the Twins are one of the Zodiac&apos;s most emotionally intelligent signs..
+        ///   Looks up a localized string similar to Smart, passionate, and dynamic, Gemini is characterized by the Twins, Castor and Pollux, and is known for having two different sides they can display to the world. Expert communicators, Gemini is the chameleon of the Zodiac, adept at blending into different groups based on the vibe and energy they perceive. 
+        ///
+        ///While they&apos;re also amazing at showcasing surface traits, the Gemini well runs deep, which is why the Twins are one of the Zodiac&apos;s most emotionally intelligent signs..
         /// </summary>
         internal static string Gemini {
             get {
@@ -183,7 +189,9 @@ namespace Zodiac_Detail.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Smart, sophisticated, and kind, Virgo gets the job done without complaining. Virgos are amazing friends, always there to lend a hand and also lend advice. Practical Virgos are incredibly adept at big picture thinking, and planning out their life, their vacations, and what they&apos;re going to do today isn&apos;t a drag it makes them feel in control and secure..
+        ///   Looks up a localized string similar to Smart, sophisticated, and kind, Virgo gets the job done without complaining. Virgos are amazing friends, always there to lend a hand and also lend advice. 
+        ///
+        ///Practical Virgos are incredibly adept at big picture thinking, and planning out their life, their vacations, and what they&apos;re going to do today isn&apos;t a drag it makes them feel in control and secure..
         /// </summary>
         internal static string Virgo {
             get {

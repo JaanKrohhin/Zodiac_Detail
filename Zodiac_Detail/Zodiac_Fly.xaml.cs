@@ -24,9 +24,10 @@ namespace Zodiac_Detail
             if (item == null)
                 return;
             Zodiac_FlyDetail.item = item;
-
+            
             Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
             IsPresented = false;
+            item.Read = '*';
 
             FlyoutPage.ListView.SelectedItem = null;
         }
